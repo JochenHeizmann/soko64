@@ -30,22 +30,22 @@ If you'd like to explore the code, run the game locally, or contribute, follow t
 
 ### Installation & Running
 
-1.  **Activate webdev**
-    ```bash
-    dart pub global activate webdev
-    ```
+**Activate webdev**
+```bash
+dart pub global activate webdev
+```
 
-2.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/JochenHeizmann/soko64.git
-    cd soko64
-    ```
+**Clone the repository:**
+```bash
+git clone https://github.com/JochenHeizmann/soko64.git
+cd soko64
+```
 
-3.  **Run the development server:**
-    ```bash
-    webdev serve
-    ```
-    This will typically start a development server and make the game accessible at `http://localhost:8080/` (or another port if 8080 is in use).
+**Run the development server:**
+```bash
+webdev serve
+```
+This will typically start a development server and make the game accessible at `http://localhost:8080/` (or another port if 8080 is in use).
 
 ## Credits
 *   **Code, Art & Level Design:** [Jochen Heizmann](https://github.com/JochenHeizmann)
