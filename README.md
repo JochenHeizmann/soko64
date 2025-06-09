@@ -31,9 +31,9 @@ If you'd like to explore the code, run the game locally, or contribute, follow t
 ### Installation & Running
 
 1.  **Activate webdev**
-```bash
-dart pub global activate webdev
-```
+    ```bash
+    dart pub global activate webdev
+    ```
 
 2.  **Clone the repository:**
     ```bash
