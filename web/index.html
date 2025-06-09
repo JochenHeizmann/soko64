@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bullseye2D - Soko64Web</title>
+    <script defer src="main.dart.js"></script>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      html {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 100%;
+        max-width: 1920px;
+        text-align: center;
+      }
+      #gameCanvas {
+        display: block;
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        max-width: 640px;
+        max-height: 640px;
+        image-rendering: pixelated;
+        margin: auto;
+      }
+      #gameCanvas:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="gameCanvas" tabindex="1" width="1280" height="1280"></canvas>
+    </div>
+  </body>
+</html>
